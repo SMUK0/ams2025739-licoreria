@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para el encabezado y la navegación */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos generales para el contenido */
+.container {
+    padding: 20px;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+contact-form button:hover {
+    background-color: #555;
+}
+
+/* Estilos para los formularios de login y registro */
+.form-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-container button {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #555;
+}
+
+.form-container p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-container p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-container p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    #formulario {
+        width: 50%;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    #productos {
+        margin-top: 20px;
+    }
+    .producto {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .producto:hover {
+        background-color: #f0f0f0;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+    /* Estilos básicos para el carrito de compras */
+.cart {
+	width: 80%;
+	margin: 40px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-header {
+	background-color: #f0f0f0;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.cart-header h2 {
+	margin-top: 0;
+}
+
+.cart-body {
+	padding: 20px;
+}
+
+.cart-item {
+	margin-bottom: 20px;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.cart-item .product-name {
+	font-weight: bold;
+}
+
+.cart-item .product-price {
+	color: #666;
+}
+
+.cart-item .quantity {
+	width: 50px;
+	height: 30px;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+/*.cart-item .remove {
+	color: #red;
+	cursor: pointer;
+}*/
+
+.cart-footer {
+	background-color: #f0f0f0;
+	padding: 10px;
+	border-top: 1px solid #ddd;
+}
+
+.cart-footer .total {
+	font-weight: bold;
+	font-size: 18px;
+}
